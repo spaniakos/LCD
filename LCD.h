@@ -82,6 +82,18 @@ class LCD : public rgb_lcd{
 };
 
 /**
+ * @example LCD.ino
+ * <b>For Arduino</b><br />
+ * <b updated: spaniakjos 2015</b><br />
+ *
+ * This is an example of a clock that is printed into an grove LCD screen<br />
+ * The format is 
+ * H: <hours> M: <minutes> in the first row
+ * Seconds: <seconds> in the seconds row
+ * the clock count time passed from the sketch start
+ */
+
+/**
   * @mainpage grove LCD library for arduino
   *
   * @section Goals Design Goals
